@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yx8Yc7b88zPGkaAFtCGzWswD9u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Navbar/OnlineFriends" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Navbar\OnlineFriends" />
+      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Dialogs\Message" />
+      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Profile\ProfileInfo" />
+      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Dialogs\DialogItem" />
+      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Settings" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="" />
+      <created>1583872934258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583872934258</updated>
+      <workItem from="1583872938740" duration="12000" />
+      <workItem from="1583872974967" duration="81000" />
+      <workItem from="1584359923579" duration="10982000" />
+      <workItem from="1584392273194" duration="6073000" />
+      <workItem from="1584443740147" duration="12533000" />
+      <workItem from="1584528701636" duration="18392000" />
+      <workItem from="1584565136109" duration="609000" />
+      <workItem from="1584614834624" duration="559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584556117466">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1080.720@0.0.1080.720" timestamp="1584556117466" />
+    <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584365367440">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.720@0.0.1080.720" timestamp="1584365367440" />
+    <state x="322" y="116" key="FileChooserDialogImpl" timestamp="1584465795245">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="322" y="116" key="FileChooserDialogImpl/0.0.1080.720@0.0.1080.720" timestamp="1584465795245" />
+    <state x="42" y="3" key="SettingsEditor" timestamp="1584445353858">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="42" y="3" key="SettingsEditor/0.0.1080.720@0.0.1080.720" timestamp="1584445353858" />
+    <state x="447" y="0" width="633" height="720" key="find.popup" timestamp="1584368735919">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="447" y="0" width="633" height="720" key="find.popup/0.0.1080.720@0.0.1080.720" timestamp="1584368735919" />
+    <state x="200" y="163" key="run.anything.popup" timestamp="1584550872091">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="200" y="163" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1584550872091" />
+    <state x="203" y="42" width="672" height="678" key="search.everywhere.popup" timestamp="1584363245168">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="203" y="42" width="672" height="678" key="search.everywhere.popup/0.0.1080.720@0.0.1080.720" timestamp="1584363245168" />
+  </component>
+</project>
