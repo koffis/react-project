@@ -45,7 +45,8 @@ let state = {
             {message: 'Yeah, but i have hard exam after tomorrow', author: 2},
             {message: 'Oh, pure boy', author: 1},
             {message: 'Ahahahahaha, never mind', author: 2},
-        ]
+        ],
+        newMessageText: ''
     },
 
     sideBar: {
@@ -104,4 +105,21 @@ export const updateNewPostText= (newText) => {
 export const subscribe = (observer) => {
     rerenderEntireTree = observer;
 };
+
+export const sendMessage = () => {
+    let newMessage = {
+        message: state.dialogsPage.newMessageText,
+        author: 2
+    };
+
+    state.dialogsPage.messagesData.push(newMessage);
+    state.dialogsPage.newMessageText = '';
+    rerenderEntireTree();
+};
+
+export const updateNewMessageText = (newText) => {
+    state.dialogsPage.newMessageText = newText;
+    rerenderEntireTree();
+};
+
 export default state;

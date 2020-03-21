@@ -12,7 +12,6 @@ import Settings from "./Components/Settings/Settings";
 
 const App = (props) => {
     return (
-
         <div className='app-wrapper'>
             <Header/>
             <Nav state={props.state.sideBar}/>
@@ -22,7 +21,11 @@ const App = (props) => {
                     addPost={props.addPost}
                     updateNewPostText={props.updateNewPostText}
                 />}/>
-                <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+                <Route path='/dialogs' render={() => <Dialogs
+                    state={props.state.dialogsPage}
+                    sendMessage={props.sendMessage}
+                    updateNewMessageText={props.updateNewMessageText}
+                />}/>
                 <Route path='/news' render={() => <News/>}/>
                 <Route path='/music' render={() => <Music/>}/>
                 <Route path='/settings' render={() => <Settings/>}/>
