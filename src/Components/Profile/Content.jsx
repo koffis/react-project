@@ -10,7 +10,11 @@ const Content = (props) => {
                 <ProfileInfo/>
             </div>
           <div className={s.posts}>
-              <MyPost state={props.state} />
+              <MyPost
+                  addPost={props.addPost}
+                  profilePage={props.profilePage}
+                  updateNewPostText={props.updateNewPostText}
+              />
           </div>
       </div>
     )

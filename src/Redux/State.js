@@ -1,10 +1,16 @@
+let rerenderEntireTree = () => {
+    console.log('state changed')
+};
+
 let state = {
     profilePage: {
         postsData: [
-            {id: 1, message: 'Hello, bitch', likes: 15},
+            {id: 1, message: 'Hello guys, how are u?', likes: 15},
             {id: 2, message: 'How are u?', likes: 13},
-            {id: 3, message: 'Girls, lets fuck', likes: 999}
-        ]
+            {id: 3, message: 'Today was perfect weather', likes: 999},
+            {id: 4, message: 'All day thinking about u', likes: 999}
+        ],
+        newPostText: ''
     },
 
     dialogsPage: {
@@ -35,12 +41,12 @@ let state = {
         ],
         messagesData: [
             {message: 'Hi', author: 2},
-            {message: 'Hello bro wtf???', author: 1},
-            {message: 'Fucking dog', author: 2},
-            {message: 'Good day', author: 1},
-            {message: 'Idiot?', author: 2},
-            {message: 'Fuck off', author: 1},
-            {message: 'cp ls', author: 2},
+            {message: 'Hello bro, what are u doing?', author: 1},
+            {message: 'My university tasks', author: 2},
+            {message: 'Not funny, heh', author: 1},
+            {message: 'Yeah, but i have hard exam after tomorrow', author: 2},
+            {message: 'Oh, pure boy', author: 1},
+            {message: 'Ahahahahaha, never mind', author: 2},
         ]
     },
 
@@ -80,4 +86,20 @@ let state = {
     }
 };
 
+export let addPost = () => {
+    let newPost = {
+        id: 5,
+        message: state.profilePage.newPostText,
+        likes: 0
+    };
+
+    state.profilePage.postsData.push(newPost);
+    state.profilePage.newPostText = '';
+    rerenderEntireTree(state);
+};
+
+export let updateNewPostText= (newText) => {
+    state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
+};
 export default state;

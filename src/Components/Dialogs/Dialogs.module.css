@@ -1,10 +1,12 @@
 .dialogs{
     display: grid;
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 80% 20%;
 }
 
 .dialogsItems{
     padding: 10px;
+    grid-area: 1/1/2/1;
 }
 
 .dialogsItems img{
@@ -17,19 +19,31 @@
     color: gold;
 }
 
-.dialog{
-    padding: 10px;
-    background-color: beige;
-}
-
-.dialog a{
-    text-decoration: none;
-    color: darkblue;
-    padding: 10px;
-}
-
-
 .message{
     padding: 10px;
+    grid-area: 1/2/1/2;
 }
+
+.messageTextArea{
+    grid-area: 2/2/2/2;
+}
+
+.messageTextArea textarea{
+    width: 47%;
+    height: 10%;
+    position: fixed;
+    resize: none;
+}
+
+.messageTextArea button {
+    float: right;
+    width: 10%;
+    position: fixed;
+    margin-left: 48%;
+    height: 11%;
+}
+
+
+
+
 

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="" />
+    <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Yx8Yc7b88zPGkaAFtCGzWswD9u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,18 +38,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Navbar/OnlineFriends" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src" />
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Dialogs\DialogItem" />
       <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Navbar\OnlineFriends" />
       <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Dialogs\Message" />
       <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Profile\ProfileInfo" />
-      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Dialogs\DialogItem" />
-      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Settings" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -55,11 +71,50 @@
       <workItem from="1584528701636" duration="18392000" />
       <workItem from="1584565136109" duration="609000" />
       <workItem from="1584614834624" duration="559000" />
+      <workItem from="1584617865382" duration="18255000" />
+      <workItem from="1584736815205" duration="212000" />
+      <workItem from="1584788587691" duration="5770000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Yaroslav/Desktop/gitlearn/react-project/src/Components/Dialogs/DialogItem" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584556117466">
@@ -70,6 +125,18 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.720@0.0.1080.720" timestamp="1584365367440" />
+    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584797210979">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1080.720@0.0.1080.720" timestamp="1584797210979" />
+    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1584638668875">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1080.720@0.0.1080.720" timestamp="1584638668875" />
+    <state x="93" y="93" width="893" height="533" key="DiffContextDialog" timestamp="1584621681427">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="93" y="93" width="893" height="533" key="DiffContextDialog/0.0.1080.720@0.0.1080.720" timestamp="1584621681427" />
     <state x="322" y="116" key="FileChooserDialogImpl" timestamp="1584465795245">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
