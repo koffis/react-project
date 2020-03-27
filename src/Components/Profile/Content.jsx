@@ -1,7 +1,7 @@
 import React from 'react';
 import s from'./Content.module.css';
-import MyPost from './MyPosts/MyPosts';
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import MyPostContainer from "./MyPosts/MyPostsContainer";
 
 const Content = (props) => {
     return (
@@ -10,11 +10,7 @@ const Content = (props) => {
                 <ProfileInfo/>
             </div>
           <div className={s.posts}>
-              <MyPost
-                  addPost={props.addPost}
-                  profilePage={props.profilePage}
-                  updateNewPostText={props.updateNewPostText}
-              />
+              <MyPostContainer />
           </div>
       </div>
     )

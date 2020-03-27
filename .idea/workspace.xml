@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/sideBar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react-project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,17 +49,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Dialogs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Dialogs" />
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Profile\MyPosts" />
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Redux" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Dialogs\DialogItem" />
-      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Navbar\OnlineFriends" />
-      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Dialogs\Message" />
-      <recent name="C:\Users\Yaroslav\Desktop\react tutorial\react-project\src\Components\Profile\ProfileInfo" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -68,7 +82,12 @@
       <workItem from="1584614834624" duration="559000" />
       <workItem from="1584617865382" duration="18255000" />
       <workItem from="1584736815205" duration="212000" />
-      <workItem from="1584788587691" duration="11695000" />
+      <workItem from="1584788587691" duration="15487000" />
+      <workItem from="1584885644531" duration="7236000" />
+      <workItem from="1584969505812" duration="8876000" />
+      <workItem from="1585045454636" duration="19397000" />
+      <workItem from="1585135796236" duration="11321000" />
+      <workItem from="1585308555183" duration="4456000" />
     </task>
     <servers />
   </component>
@@ -120,10 +139,10 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.720@0.0.1080.720" timestamp="1584365367440" />
-    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584797210979">
+    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585155890563">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1080.720@0.0.1080.720" timestamp="1584797210979" />
+    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1080.720@0.0.1080.720" timestamp="1585155890563" />
     <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1584801213918">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
@@ -140,14 +159,18 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="42" y="3" key="SettingsEditor/0.0.1080.720@0.0.1080.720" timestamp="1584445353858" />
+    <state x="218" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584973955870">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="218" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1080.720@0.0.1080.720" timestamp="1584973955870" />
     <state x="447" y="0" width="633" height="720" key="find.popup" timestamp="1584368735919">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="447" y="0" width="633" height="720" key="find.popup/0.0.1080.720@0.0.1080.720" timestamp="1584368735919" />
-    <state x="200" y="163" key="run.anything.popup" timestamp="1584550872091">
+    <state x="202" y="165" key="run.anything.popup" timestamp="1585072531567">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="200" y="163" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1584550872091" />
+    <state x="202" y="165" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1585072531567" />
     <state x="203" y="42" width="672" height="678" key="search.everywhere.popup" timestamp="1584363245168">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
