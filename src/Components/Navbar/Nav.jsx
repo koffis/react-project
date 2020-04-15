@@ -6,13 +6,16 @@ import OnlineFriends from "./OnlineFriends/OnlineFriends";
 const Nav = (props) => {
 
     let friendsOnline = props.state.onlineFriends.map(
-        online => <OnlineFriends id={online.id} name={online.name} avatar={online.avatar} onlineStatus={online.onlineStatus}/>
+        online => <OnlineFriends key={online.id} id={online.id} name={online.name} avatar={online.avatar} onlineStatus={online.onlineStatus}/>
     );
 
     return (
         <nav className={s.nav}>
             <div className={s.item}>
                 <NavLink to="/profile" activeClassName={s.activeLink}>Profile</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/users' activeClassName={s.activeLink}>Users</NavLink>
             </div>
             <div className={s.item}>
                 <NavLink to='/dialogs' activeClassName={s.activeLink}>Message</NavLink>

@@ -1,0 +1,40 @@
+.profileInfoPlace{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.avatar{
+    grid-column-start: 1;
+    padding: 10px;
+}
+
+.infoPlace{
+    grid-column-start: 2;
+    margin-left: 30px;
+    padding: 10px;
+    border-left: 2px solid rgba(28,110,164,0.61);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.infoPlaceStatus{
+    grid-column-start: 1;
+}
+
+.socialNetworks{
+    grid-column-start: 2;
+
+}
+
+.avatar img{
+    width: 200px;
+}
+
+.hat {
+    height: 150px;
+    width: 100%;
+}
+
+.infoPlace img{
+    width: 60px;
+}

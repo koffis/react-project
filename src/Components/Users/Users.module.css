@@ -1,0 +1,16 @@
+.usersList{
+    margin: 30px;
+}
+
+.usersPhoto{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+

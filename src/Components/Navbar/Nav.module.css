@@ -1,17 +1,17 @@
 .nav {
     grid-area: n;
-    background-color: hotpink; 
-  }
+    background-color: hotpink;
+}
 
-  .item a{
-      color: white;
-      text-decoration: none;
-  }
+.item a {
+    color: white;
+    text-decoration: none;
+}
 
-.item a.activeLink{
+.item a.activeLink {
     color: gold;
 }
 
-.online{
-    
+.online {
+
 }
