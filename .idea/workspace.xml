@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Images/workTrue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/users-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Nav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -68,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Header" />
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Redux" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\common\Images" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Profile" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Users" />
-      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Users\UserItem" />
-      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Redux" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -119,7 +102,10 @@
       <workItem from="1586709013651" duration="11597000" />
       <workItem from="1586781902707" duration="11297000" />
       <workItem from="1586884739198" duration="3438000" />
-      <workItem from="1586955538943" duration="1685000" />
+      <workItem from="1586955538943" duration="7411000" />
+      <workItem from="1587144984737" duration="217000" />
+      <workItem from="1587152287377" duration="1013000" />
+      <workItem from="1587381113571" duration="12462000" />
     </task>
     <servers />
   </component>
@@ -203,10 +189,10 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="447" y="0" width="633" height="720" key="find.popup/0.0.1080.720@0.0.1080.720" timestamp="1584368735919" />
-    <state x="246" y="209" key="run.anything.popup" timestamp="1586552278113">
+    <state x="247" y="210" key="run.anything.popup" timestamp="1587388959338">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="246" y="209" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1586552278113" />
+    <state x="247" y="210" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1587388959338" />
     <state x="205" y="44" width="672" height="678" key="search.everywhere.popup" timestamp="1586886355930">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
