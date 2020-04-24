@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,9 @@
       <workItem from="1587144984737" duration="217000" />
       <workItem from="1587152287377" duration="1013000" />
       <workItem from="1587381113571" duration="12462000" />
+      <workItem from="1587401360517" duration="4083000" />
+      <workItem from="1587572156274" duration="5197000" />
+      <workItem from="1587748464226" duration="7022000" />
     </task>
     <servers />
   </component>
