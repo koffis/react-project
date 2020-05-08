@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UserItem/UserItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -108,7 +113,18 @@
       <workItem from="1587381113571" duration="12462000" />
       <workItem from="1587401360517" duration="4083000" />
       <workItem from="1587572156274" duration="5197000" />
-      <workItem from="1587748464226" duration="7022000" />
+      <workItem from="1587748464226" duration="8199000" />
+      <workItem from="1587919673877" duration="7859000" />
+      <workItem from="1588105490261" duration="4011000" />
+      <workItem from="1588165401964" duration="9506000" />
+      <workItem from="1588189017619" duration="5000" />
+      <workItem from="1588273496488" duration="3063000" />
+      <workItem from="1588533682272" duration="5097000" />
+      <workItem from="1588598097150" duration="12504000" />
+      <workItem from="1588624991973" duration="4715000" />
+      <workItem from="1588708190573" duration="2512000" />
+      <workItem from="1588883609672" duration="904000" />
+      <workItem from="1588961484332" duration="2047000" />
     </task>
     <servers />
   </component>
@@ -156,10 +172,10 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="133" y="19" key="#Notifications/0.0.1080.720@0.0.1080.720" timestamp="1586798730855" />
-    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584556117466">
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588537718121">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1080.720@0.0.1080.720" timestamp="1584556117466" />
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1080.720@0.0.1080.720" timestamp="1588537718121" />
     <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584365367440">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
@@ -168,6 +184,10 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1080.720@0.0.1080.720" timestamp="1586800854865" />
+    <state x="285" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587930061158">
+      <screen x="0" y="0" width="1080" height="720" />
+    </state>
+    <state x="285" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1080.720@0.0.1080.720" timestamp="1587930061158" />
     <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1584801213918">
       <screen x="0" y="0" width="1080" height="720" />
     </state>

@@ -2,6 +2,7 @@ import React from 'react';
 import s from './ProfileInfo.module.css';
 import Preloader from "../../common/Preloader/Preloader";
 import jobTrue from '../../common/Images/workTrue.svg'
+import ProfileStatus from "./ProfileStatus";
 
 
 const ProfileInfo = (props) => {
@@ -13,8 +14,10 @@ const ProfileInfo = (props) => {
 
     return (
         <div>
+{/*
             <img className={s.hat}
                  src='https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'/>
+*/}
             <div className={s.profileInfoPlace}>
                 <div className={s.avatar}>
                     <img alt={'profileImage'} src={props.profile.photos.large}/><br></br>
@@ -22,6 +25,7 @@ const ProfileInfo = (props) => {
                 <div className={s.infoPlace}>
                     <div className={s.infoPlaceStatus}>
                         <h4>{props.profile.fullName}</h4>
+                        <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
                         <p>About me:{props.profile.aboutMe}</p>
                         <p>Looking for a job:<img alt={'workRef'} src={jobTrue}/></p>
                         <p>Job description: {props.profile.lookingForAJobDescription}</p>
