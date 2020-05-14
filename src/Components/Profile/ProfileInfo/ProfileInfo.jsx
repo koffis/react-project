@@ -14,10 +14,6 @@ const ProfileInfo = (props) => {
 
     return (
         <div>
-{/*
-            <img className={s.hat}
-                 src='https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'/>
-*/}
             <div className={s.profileInfoPlace}>
                 <div className={s.avatar}>
                     <img alt={'profileImage'} src={props.profile.photos.large}/><br></br>
