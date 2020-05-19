@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/ProfileInfo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -43,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\social-network-on-react\src\Components\Profile\ProfileInfo" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Header" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Redux" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\common\Images" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Profile" />
-      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\Users" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -120,7 +125,8 @@
       <workItem from="1589369868181" duration="10218000" />
       <workItem from="1589451692488" duration="5552000" />
       <workItem from="1589485629390" duration="1666000" />
-      <workItem from="1589810077956" duration="275000" />
+      <workItem from="1589810077956" duration="8795000" />
+      <workItem from="1589913403251" duration="2436000" />
     </task>
     <servers />
   </component>
@@ -212,9 +218,10 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="248" y="211" key="run.anything.popup/0.0.1080.720@0.0.1080.720" timestamp="1589033583319" />
-    <state x="205" y="44" width="672" height="678" key="search.everywhere.popup" timestamp="1586886355930">
+    <state x="206" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1589916718834">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
+    <state x="206" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1589916718834" />
     <state x="205" y="44" width="672" height="678" key="search.everywhere.popup/0.0.1080.720@0.0.1080.720" timestamp="1586886355930" />
   </component>
 </project>
