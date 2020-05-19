@@ -71,8 +71,9 @@ export const updateStatus = (status) => {
         profileAPI.updateStatus(status)
             .then(response => {
                 if(response.data === 0){
-                    dispatch(setStatus(response.data));
+                    dispatch(setStatus(response.config.data));
                 }
+                console.log(response)
             });
     };
 };
