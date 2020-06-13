@@ -40,7 +40,6 @@ class UsersContainer extends React.Component {
                 id={u.id}
                 name={u.name}
                 avatar={u.photos.small != null ? u.photos.small : userPhoto}
-                //location={users.location}
                 status={u.status}
                 followed={u.followed}
                 follow={this.props.follow}

@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./Users.module.css";
+import Pagination from "./Pagination";
 
 const Users = (props) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
@@ -9,15 +10,9 @@ const Users = (props) => {
     }
     return (
         <div className={s.usersList}>
-            <div>
-                {
-                    pages.map(p => {
-                        return <span onClick={(e) => {
-                            props.onPageChange(p)
-                        }} className={props.currentPage === p && s.selectedPage}>{p}</span>
-                    })
-                }
-            </div>
+            <Pagination currentPage={props.currentPage} onPageChange={props.onPageChange}
+                        totalUsersCount={props.totalUsersCount} pageSize={props.pageSize}
+            />
             {props.usersListF()}
         </div>
     )
