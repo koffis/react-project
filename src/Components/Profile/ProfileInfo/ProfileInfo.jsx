@@ -3,6 +3,7 @@ import s from './ProfileInfo.module.css';
 import Preloader from "../../common/Preloader/Preloader";
 import jobTrue from '../../common/Images/workTrue.svg'
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
+import ProfileStatus from "./ProfileStatus";
 
 
 const ProfileInfo = (props) => {
@@ -21,7 +22,7 @@ const ProfileInfo = (props) => {
                 <div className={s.infoPlace}>
                     <div className={s.infoPlaceStatus}>
                         <h4>{props.profile.fullName}</h4>
-                        <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
+                        <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
                         <p>About me:{props.profile.aboutMe}</p>
                         <p>Looking for a job:<img alt={'workRef'} src={jobTrue}/></p>
                         <p>Job description: {props.profile.lookingForAJobDescription}</p>

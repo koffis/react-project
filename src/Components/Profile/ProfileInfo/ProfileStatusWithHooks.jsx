@@ -26,7 +26,7 @@ const ProfileStatusWithHooks = (props) => {
             <div>
                 {!editMode &&
                     <div>
-                        <span onClick={activateEditMode}>{props.status}</span>
+                        <span onClick={activateEditMode}>{props.status ?props.status : "hello dogs"}</span>
                     </div>
                 }
                 { editMode &&

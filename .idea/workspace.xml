@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace090b9-33e3-4c71-95cf-af1621dad651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/profile-reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,10 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\social-network-on-react\src" />
+      <recent name="C:\Users\Yaroslav\Desktop\gitlearn\social-network-on-react\__test__" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\social-network-on-react\src\Redux" />
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\social-network-on-react\src\Components\Profile\ProfileInfo" />
@@ -52,17 +66,74 @@
       <recent name="C:\Users\Yaroslav\Desktop\gitlearn\react-project\src\Components\common\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.after deleting length shouldn`t be decrement if id is incorrect">
-    <configuration name="after deleting length of messages should be decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProfileStatus component.Callback should be called">
+    <configuration name="ProfileStatus component.After creation input shouldn`t be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="after deleting length of messages should be decrement" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="After creation input shouldn`t be displayed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.After creation span should be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="After creation span should be displayed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.After creation span should contains correct status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="After creation span should contains correct status" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.Callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="Callback should be called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.Input should be displayed in editMode instead of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="Input should be displayed in editMode instead of span" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -79,51 +150,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
-      <test-names>
-        <test-name value="length of posts should be incremented" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="message of new post should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
-      <test-names>
-        <test-name value="message of new post should be correct" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="renders learn react link" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.after deleting length of messages should be decrement" />
-        <item itemvalue="Jest.message of new post should be correct" />
-        <item itemvalue="Jest.length of posts should be incremented" />
-        <item itemvalue="Jest.renders learn react link" />
+        <item itemvalue="Jest.ProfileStatus component.Callback should be called" />
+        <item itemvalue="Jest.ProfileStatus component.Input should be displayed in editMode instead of span" />
+        <item itemvalue="Jest.ProfileStatus component.After creation input shouldn`t be displayed" />
+        <item itemvalue="Jest.ProfileStatus component.After creation span should contains correct status" />
+        <item itemvalue="Jest.ProfileStatus component.After creation span should be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +258,7 @@
       <workItem from="1595250524185" duration="1455000" />
       <workItem from="1595320350343" duration="106000" />
       <workItem from="1595321217226" duration="1232000" />
+      <workItem from="1596921086770" duration="9034000" />
     </task>
     <servers />
   </component>
@@ -268,132 +302,104 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="133" y="19" key="#Notifications" timestamp="1586798730855">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="133" y="19" key="#Notifications/0.0.1080.720@0.0.1080.720" timestamp="1586798730855" />
     <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590177543788">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590177543788" />
     <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1080.720@0.0.1080.720" timestamp="1588537718121" />
-    <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584365367440">
+    <state x="93" y="93" width="893" height="533" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596926438603">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="307" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.720@0.0.1080.720" timestamp="1584365367440" />
-    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586800854865">
+    <state x="93" y="93" width="893" height="533" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596926438603" />
+    <state width="469" height="618" key="DebuggerActiveHint" timestamp="1596928170768">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="271" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1080.720@0.0.1080.720" timestamp="1586800854865" />
-    <state x="285" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587930061158">
+    <state width="469" height="618" key="DebuggerActiveHint/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928170768" />
+    <state width="1060" height="223" key="GridCell.Tab.0.bottom" timestamp="1596929500739">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state x="285" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1080.720@0.0.1080.720" timestamp="1587930061158" />
-    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1584801213918">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1080.720@0.0.1080.720" timestamp="1584801213918" />
-    <state x="93" y="93" width="893" height="533" key="DiffContextDialog" timestamp="1584621681427">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="93" y="93" width="893" height="533" key="DiffContextDialog/0.0.1080.720@0.0.1080.720" timestamp="1584621681427" />
-    <state x="322" y="116" key="FileChooserDialogImpl" timestamp="1584465795245">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="322" y="116" key="FileChooserDialogImpl/0.0.1080.720@0.0.1080.720" timestamp="1584465795245" />
-    <state width="1071" height="203" key="GridCell.Tab.0.bottom" timestamp="1590184583249">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state width="1071" height="160" key="GridCell.Tab.0.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176967489" />
+    <state width="1060" height="223" key="GridCell.Tab.0.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596929500739" />
     <state width="1071" height="203" key="GridCell.Tab.0.bottom/0.0.1080.720@0.0.1080.720" timestamp="1590184583249" />
-    <state width="1071" height="203" key="GridCell.Tab.0.center" timestamp="1590184583249">
+    <state width="1060" height="223" key="GridCell.Tab.0.center" timestamp="1596929500739">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="160" key="GridCell.Tab.0.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176967489" />
+    <state width="1060" height="223" key="GridCell.Tab.0.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596929500739" />
     <state width="1071" height="203" key="GridCell.Tab.0.center/0.0.1080.720@0.0.1080.720" timestamp="1590184583249" />
-    <state width="1071" height="203" key="GridCell.Tab.0.left" timestamp="1590184583249">
+    <state width="1060" height="223" key="GridCell.Tab.0.left" timestamp="1596929500739">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="160" key="GridCell.Tab.0.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176967489" />
+    <state width="1060" height="223" key="GridCell.Tab.0.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596929500739" />
     <state width="1071" height="203" key="GridCell.Tab.0.left/0.0.1080.720@0.0.1080.720" timestamp="1590184583249" />
-    <state width="1071" height="203" key="GridCell.Tab.0.right" timestamp="1590184583249">
+    <state width="1060" height="223" key="GridCell.Tab.0.right" timestamp="1596929500739">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="160" key="GridCell.Tab.0.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176967489" />
+    <state width="1060" height="223" key="GridCell.Tab.0.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596929500739" />
     <state width="1071" height="203" key="GridCell.Tab.0.right/0.0.1080.720@0.0.1080.720" timestamp="1590184583249" />
-    <state width="1071" height="203" key="GridCell.Tab.1.bottom" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.1.bottom" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.1.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751263" />
+    <state width="1060" height="306" key="GridCell.Tab.1.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.1.bottom/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.1.center" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.1.center" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.1.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751263" />
+    <state width="1060" height="306" key="GridCell.Tab.1.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.1.center/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.1.left" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.1.left" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.1.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751263" />
+    <state width="1060" height="306" key="GridCell.Tab.1.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.1.left/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.1.right" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.1.right" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.1.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751263" />
+    <state width="1060" height="306" key="GridCell.Tab.1.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.1.right/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.2.bottom" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.2.bottom" timestamp="1596928230642">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.2.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.2.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230642" />
     <state width="1071" height="203" key="GridCell.Tab.2.bottom/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.2.center" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.2.center" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.2.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.2.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.2.center/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.2.left" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.2.left" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.2.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751263" />
+    <state width="1060" height="306" key="GridCell.Tab.2.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.2.left/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.2.right" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.2.right" timestamp="1596928230641">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.2.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.2.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230641" />
     <state width="1071" height="203" key="GridCell.Tab.2.right/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.3.bottom" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.3.bottom" timestamp="1596928230642">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.3.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.3.bottom/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230642" />
     <state width="1071" height="203" key="GridCell.Tab.3.bottom/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.3.center" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.3.center" timestamp="1596928230642">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.3.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.3.center/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230642" />
     <state width="1071" height="203" key="GridCell.Tab.3.center/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.3.left" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.3.left" timestamp="1596928230642">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.3.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.3.left/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230642" />
     <state width="1071" height="203" key="GridCell.Tab.3.left/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
-    <state width="1071" height="203" key="GridCell.Tab.3.right" timestamp="1590184583250">
+    <state width="1060" height="306" key="GridCell.Tab.3.right" timestamp="1596928230642">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
-    <state width="1071" height="203" key="GridCell.Tab.3.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176751264" />
+    <state width="1060" height="306" key="GridCell.Tab.3.right/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1596928230642" />
     <state width="1071" height="203" key="GridCell.Tab.3.right/0.0.1080.720@0.0.1080.720" timestamp="1590184583250" />
     <state x="-102" y="-1" key="SettingsEditor" timestamp="1590179494835">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="42" y="3" key="SettingsEditor/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590175508484" />
     <state x="-102" y="-1" key="SettingsEditor/0.0.1080.720@0.0.1080.720" timestamp="1590179494835" />
-    <state x="218" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586801947726">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="218" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1080.720@0.0.1080.720" timestamp="1586801947726" />
-    <state x="447" y="0" width="633" height="720" key="find.popup" timestamp="1584368735919">
-      <screen x="0" y="0" width="1080" height="720" />
-    </state>
-    <state x="447" y="0" width="633" height="720" key="find.popup/0.0.1080.720@0.0.1080.720" timestamp="1584368735919" />
     <state x="248" y="211" key="run.anything.popup" timestamp="1589033583319">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
@@ -402,6 +408,5 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="206" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1080.720/2160.0.1280.1024@0.0.1080.720" timestamp="1590176147091" />
-    <state x="205" y="44" width="672" height="678" key="search.everywhere.popup/0.0.1080.720@0.0.1080.720" timestamp="1586886355930" />
   </component>
 </project>
